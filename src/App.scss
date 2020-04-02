@@ -1,0 +1,40 @@
+.App {
+	text-align: center;
+}
+
+.navbar {
+	text-align: left;
+	color: lightgrey;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: 600;
+	background-color: black;
+}
+
+.gif_container {
+	margin-top: 20px;
+	display: flex;
+
+	justify-content: space-around;
+}
+
+.search_container {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	height: 180px;
+	background-color: grey;
+	* {
+		margin: 10px 10px;
+	}
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.gif {
+}
